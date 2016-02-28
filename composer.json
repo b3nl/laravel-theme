@@ -1,0 +1,27 @@
+{
+    "autoload": {
+        "files": [
+            "app/helpers.php"
+        ],
+        "psr-4": {
+            "b3nl\\Theme\\": "app/"
+        }
+    },
+    "name": "b3nl/laravel-theme",
+    "description": "Created my own laravel theme package, based on a model, a middleware and loading callbacks with an theme.php in a resource folder.",
+    "require": {
+        "laravel/framework": "~5.2",
+        "php": ">= 5.5.9"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "b3nl",
+            "email": "code@b3nl.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
